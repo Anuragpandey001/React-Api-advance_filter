@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+body{
+  background-color: #61dafb;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.userimg{
+  height: 150px;
+  width: 161px;
+}
+.cards{
+  text-align: center;
+}
+.cards p{
+  text-align: justify;
+}
+
+.itemsDescription{
+  text-align: end;
 }

@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+// import { Form, Tick } from './component/Tick';
 import './App.css';
+import Accordian from './component/Accordian';
+import AdvanceFilter from './component/AdvanceFilter';
+import Fake from './component/Fake';
+import Filter from './component/Filter';
+// import Practice from './component/Practice';
+import Tail from './component/Tail';
+import Tail2 from './component/Tail2';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Practice /> */}
+
+      {/* <Tail /> */}
+      {/* <Tail2 /> */}
+      {/* <Fake /> */}
+      {/* <Filter /> */}
+      {/* <Accordian /> */}
+      <AdvanceFilter />
+    </>
   );
 }
 
